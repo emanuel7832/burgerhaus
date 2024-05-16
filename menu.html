@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BURGER HAUS</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="styles.css" rel="stylesheet">
+     <style>
+    .navbar {
+    background-color: #000; 
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 200px; 
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+
+.card-text {
+    color: #666;
+}
+
+
+.btn-primary {
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 0;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-primary:hover {
+    background-color: #ff4d4d;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="index.html">BURGER HAUS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu.html">Menú</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/burgerhaus.ar/">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <header>
+        <h1>CATALOGO</h1>
+    </header>
+    <main>
+        <div class="product">
+            <img src="producto2.jpg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>.</p>
+            <p>Precio: $XX.XX</p>
+        </div>
+        <div class="product">
+            <img src="imagen2.jpg" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>Descripción del Producto 2.</p>
+            <p>Precio: $XX.XX</p>
+        </div>
+         <div class="product">
+            <img src="producto2.jpg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>Descripción del Producto 1.</p>
+            <p>Precio: $XX.XX</p>
+        </div>
+        <div class="product">
+            <img src="imagen2.jpg" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>Descripción del Producto 2.</p>
+            <p>Precio: $XX.XX</p>
+        </div>
+        
+            </main>
+    <footer>
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
